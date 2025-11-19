@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Trial</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/brython@3.11.0/brython.min.js"></script>
+</head>
+<body onload="brython()">
+	
+	<h1>Random Background Generator</h1>
+	<h3 id="bg-hex-code">HEX : #ffffff</h3>
+	<button id="btn" type="button">Change Color</button>
+	<button id="reset" type="button">Reset</button>
+	<script src="./script.js"></script>
+	
+	
+	<h1>Python on Webpage using Brython</h1>
+    <div id="output"></div>
+    
+    <script type="text/python">
+        from browser import document
+
+        # Select the HTML element with id="output"
+        output_div = document["output"]
+        output_div.text = "Hello from Python!"
+    </script>
+</body>
+</html>

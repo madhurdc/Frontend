@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car</title>
+	<style>
+		#image{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.images{
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<img src="images.jpg" onclick="changeImage()" id="image" class = "images" height = 400px width = 400px>
+	<script>
+		function changeImage()
+		{
+			var image = document.querySelector("#image");
+			if(image.src.match("images.jpg"))
+				image.src = "angry-cats-v0-37n6eeti7j5b1.webp";
+			else
+				image.src = "images.jpg";
+		}
+	</script>
+</body>
+</html>

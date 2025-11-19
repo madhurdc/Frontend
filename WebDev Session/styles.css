@@ -1,0 +1,70 @@
+.title{
+	text-align: center;
+	padding: 5px;
+	font-family: arial;
+	color: #553;
+}
+.details{
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+}
+.details:focus{
+	background-color: #E0E0E0;
+}
+label{
+	color: black;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+.form, #registrations{
+	margin: 50px auto;
+	width: 50%;
+	transition: transform .2s;
+	background-color: #B6B6FA;
+	padding: 20px;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+	border-radius: 20px;
+}
+#submit{
+	display: block;
+	margin: 25px auto;
+	font-size: 20px;
+	width: 20%;
+	padding: 10px;
+	border-radius: 500px;
+	background-color: rgb(100, 160, 100);
+	cursor: not-allowed;
+	transition: width .3s;
+}
+h4{
+	display: inline;
+	font-family: monospace;
+	font-size: 18px;
+	background-color: #FFFFFF;
+	padding: 7px;
+	margin: 3px auto;
+	border-radius: 7px;
+}
+#registrations{
+	display: none;
+	font-size: 25px;
+}
+#button{
+	width: 30%;
+	text-align: center;
+	margin: 15px auto;
+}
+#registered, #full{
+	padding: 10px;
+	margin: 15px;
+	transition: transform .1s;
+	background-color: rgb(200, 255, 200);
+	font-size: 15px;
+	cursor: pointer;
+}
+#registered:hover, #full:hover{
+	transform : scale(1.1);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h1 class="title">GDGC GESCOE</h1>
+	<h2 class="title">Registration Form</h2>
+	<form class="form" id ="form">
+				<label for="name">Enter your Name:</label>
+				<input type="text" id="name" class="details" placeholder="e.g. John Doe" required>
+				
+				<label for="phone">Enter your Phone Number:</label>
+				<input type="tel" id="phone" class="details" placeholder="123" required>
+				
+				<label for="email">Enter your Email Address:</label>
+				<input type="email" id="email" class="details" placeholder="abc@gmail.com" required>
+
+				<label for="year">Enter Year:</label>
+				<input type="text" id="year" class="details" placeholder="SE" required>
+				
+				<button type="submit" id="submit">Register</button>
+				<h4 id="count">Number of Students Registered : 0</h4>
+				<button id="full" type="button">Fullscreen</button>
+	</form>
+	<div id="button">
+		<button id="registered" type="button">Show Registered Students</button>
+	</div>
+	<div id="registrations">
+		<p>Registered Students<br></p>
+	</div>
+	<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

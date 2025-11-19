@@ -1,0 +1,29 @@
+#bg-hex-code{
+	display: block;
+	text-align: center;
+	font-size: 26px;
+	margin: 10px;
+	padding: 10px;
+}
+h1{
+	text-align: center;
+}
+#btn{
+	background-image: linear-gradient(#f5f5f5, #555555);
+	cursor: pointer;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 8px;
+}
+#reset{
+	background-image: linear-gradient(#f5f5f5, #555555);
+	cursor: pointer;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	border-radius: 8px;
+}
+#btn:hover, #reset:hover{
+	background-image: linear-gradient(#ffffff, #777777);
+}
